@@ -1,4 +1,4 @@
-import { sum } from "./sum.js";
+import { find } from "./find.js";
 
 console.log("sum is ", sum(10, 20));
 console.log("This is main.js.");
