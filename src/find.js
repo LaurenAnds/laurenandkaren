@@ -19,4 +19,10 @@ function isNegative(n){
     return n < 0;
 
 }
-export { find };
+
+let array = [10, 50, -20, -10, 100];
+let result = find(array, isNegative);
+
+console.log(result);
+
+export { find, isNegative };

@@ -1,4 +1,4 @@
-import { find } from "./find.js";
+import { find, isNegative } from "./find.js";
 
 // jest docs for expect "matchers"
 // https://jestjs.io/docs/expect
